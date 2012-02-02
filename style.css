@@ -1,0 +1,136 @@
+.sample{
+	width:50px;
+	height:50px;
+	float:left;
+}
+
+.rgbcode{
+	float:left;
+	margin:10px;
+	color: white;
+	font-size:20px;
+}
+
+body{
+	background-color:#323232;
+	font-family:tahoma,verdana, arial;
+	color: white;
+	text-align:center;
+}
+
+#cubediv{
+	float:left;
+	width:502px;
+}
+
+#colorsdiv{
+	margin-left: 0px;	
+	float:left;
+	font-size:20px;
+	
+}
+
+#wrapper{
+	margin:auto;
+	width:890px;
+}
+
+td{
+	padding-left:15px;
+	padding-top:20px;
+}
+
+
+#titleimg{
+	margin:auto;
+	margin-bottom:70px;
+	margin-top:35px;
+	
+}
+
+#funkycube{
+	border: 0px;
+}
+
+.rounded {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	background-color:#95D978;
+	margin-top: 30px;
+	font-size: 18px;
+	padding:2px;
+	color:#323232;
+	cursor:hand;
+}
+
+#restart{
+	width: 100px;
+	float:left;
+	margin-left:10px;
+}
+
+#showcss{
+	width:100px;
+	float:left;
+	margin-left:60px;
+}
+
+.footerp{
+	font-style:italic;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+a.linkfooter:link{
+	color:#95D978;
+}
+
+a.linkfooter:active{
+	color:#95D978;
+}
+
+a.linkfooter:visited{
+	color:#95D978;
+}
+
+a.linkfooter:hover{
+	color:#95D978;
+	
+}
+
+/* Modal dialog */
+
+#overlay {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#modal {
+	position:absolute;
+	background:url(tint.png) 0 0 repeat; /*only for IE*/
+	background:rgba(0,0,0,0.2);
+	border-radius:14px;
+	padding:8px;
+}
+
+#modalcontent {
+	border-radius:8px;
+	background:#fff;
+	padding:20px;
+}
+
+#footer{
+	float:left;
+	width:100%;
+	font-size:12px;
+}

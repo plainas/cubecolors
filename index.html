@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>Cubic colorscheme selector</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/processing.js/1.3.6/processing-api.min.js"></script>
+<img alt="cubecolors" src="cclogo.png" id="titleimg"/>
+
+<div id="wrapper">
+
+	<div id="cubediv">
+		<canvas id="funkycube" ></canvas>
+	</div>
+
+	<div id="colorsdiv">
+		<table>
+		<tr>
+			<td>
+				<div id="fccolor1" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor1code" class="rgbcode">#323232</div>
+			</td>
+			<td>
+				<div id="fccolor2" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor2code" class="rgbcode">#323232</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="fccolor3" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor3code" class="rgbcode">#323232</div>
+			</td>
+			<td>
+				<div id="fccolor4" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor4code" class="rgbcode">#323232</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="fccolor5" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor5code" class="rgbcode">#323232</div>
+			</td>
+			<td>
+				<div id="fccolor6" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor6code" class="rgbcode">#323232</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="fccolor7" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor7code" class="rgbcode">#323232</div>
+			</td>
+			<td>
+				<div id="fccolor8" class="sample"><img src="cubeframe.png"/></div>
+				<div id="fccolor8code" class="rgbcode">#323232</div>
+			</td>
+		</tr>
+		</table>
+		
+		<div class="rounded" id="showcss" onclick="displaycss()">View CSS</div>
+		<div class="rounded" id="restart" onclick="window.location.reload()" >Restart</div>
+		
+	</div>	
+	
+<div id="footer">
+	<p class="footerp">created by <a class="linkfooter" href="http://lamehacks.net">Pedro</a> | powered by <a class="linkfooter" href="http://processingjs.org/">processing.js</a></p>
+</div>
+	
+</div>
+
+<div id='overlay'></div>
+<div id='modal'>
+    	<div id='modalcontent'>
+		<form>
+			<textarea id="cssta" rows="13" cols="40">
+			</textarea>	
+		
+		</form>
+
+		<a href="#" onclick="hidecss()">Close</a>
+	</div>
+</div>
+
+
+<script src="cubecolors.js"></script>
+
+</body>
+</html>
+
